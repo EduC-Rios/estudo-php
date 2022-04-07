@@ -1,0 +1,16 @@
+Comando para verificar o status dos arquivos na pasta do seu projeto: git status
+Comando para adicionar arquivos novos ou modificados ao controle de versão: git add .  Ou colocar entre aspas duplas o nome do arquivo que deseja adicionar
+Comando para adicionar uma versão do projeto salvando os arquivos num determinado ponto do desenvolvimento: git commit -m "MENSAGEM QUE QUISER COLOCAR"
+Comando para subir os arquivos para a nuvem: git push
+
+Passo a passo para controlar a versão de seu projeto:
+
+1- Começe com (git status) para verificar se existe algum arquivo novo, ou que foi modificado
+
+2- Digite (git add .) para registrar estes arquivos novos ou modificados
+
+3- Como boa prática, utilize o (git status) novamente, apenas para confirmar se os arquivos foram registrados
+
+4- Crie uma commit, que seria a versão mais nova de seu projeto com o comando (git commit -m "MENSAGEM DESEJADA")
+
+5- E por fim, suba seus arquivos para a nuvem, usando o comando (git push)
