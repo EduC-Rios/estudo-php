@@ -320,6 +320,6 @@ sequencia de passos em pseudocódigo:
 dentro deste laço, irá ocorrer 4 verificações, onde uma compara se o "valor_chute" é maior que o "valor_aleatorio" e mostra uma mensagem de acordo
 a outra compara se o "valor_chute" é menor que o "valor_aleatorio" e apresenta uma mensagem na tela de acordo com a situação
 e a terceira verifica se o "valor_chute" é igual ao "valor_aleatorio", se sim, ele seta o valor de "acertou" para true, assim encerrando o ciclo do while, pois a condição para o while funcionar não está mais sendo cumprida
-e depois printa a mensagem de sucessona tela
+e depois printa a mensagem de sucesso na tela
 a ultima verificação é no caso de nenhuma das 3 anteriores serem cumpridas, ela apresenta na tela uma mensagem de erro, onde o usuario digitou um valor invalido
 
