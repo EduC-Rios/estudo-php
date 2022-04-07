@@ -1,4 +1,4 @@
 °Preciso estudar lógica de programação
 °Preciso fazer exercícios de lógica de programação, no min 3.
 °Preciso estudar php
-°Preciso anotar os comandos git num .txt
+°Preciso anotar os comandos git num .txt ---------FEITO

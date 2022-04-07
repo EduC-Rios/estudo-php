@@ -1,0 +1,325 @@
+Primeiramente saber como resolver o problema e depois levar isso ao código, em resumo, resolver o problema antes de codar.
+
+ALGORITIMOS_DEFINIÇÃO: Uma série de instruções (PASSOS) a serem seguidos para resolver um problema.
+Sempre devem ser criados quando queremos monstar uma sequencia de passos necessários para solucionar um problema.
+
+Qual a estratégia para montar um algoritimo?
+
+MÉTODO 5Q's
+1. Quais são os dados de entrada necessários?
+2. O que devo fazer com estes dados?
+3. Quais são as RESTRIÇÕES deste problema? (coisas que podem dar errado, ou que não eram pra acontecer)
+4. Qual é o resultado esperado?
+5. Qual é a sequencia de passos a ser feita para chegar ao resultado?
+
+Analise críticamente o problema e descubra:
+(Tente explicar estre problema a si mesmo em voz alta e peça mais informações/investigue mais até conseguir compreender completamente o problema)
+
+Prática: Montar um algoritimo para ligar para um amigo
+
+dados de entrada necessários: Smartphone, Número do amigo a se ligar
+o que fazer com estes dados: usar o smartphone para ligar para o amigo
+restrições: se o amigo não atender, deixar uma mensagem "me ligue de volta"
+resultado esperado: após digitar o numero da pessoa e apertar o botao de ligar, a pessoa ira atender
+sequencia de passos pra chegar no resultado: pegar o Smartphone, desbloquear o smartphone, abrir o app de Telefone, digitar o número da pessoa a se ligar, apertar o botão de iniciar chamada, colocar o smartphone no ouvido, esperar a ligação completar, se caso não completar, deixar uma mensagem de me ligue de volta, caso a chamada complete, conversar com o amigo
+
+Prática2: Calcular o valor por hora recebido de um funcionário com base em seu salario mensal e horas trabalhadas
+
+dados de entrada: salário mensal, horas trabalhadas mensalmente
+o que fazer com estes dados: calculcar o valor por hora do funcionario
+restrições: se caso o funcionario trabalhar uma quantia maior de horas que existem num mês, não Calcular; não se pode ter 0 horas trabalhadas no mes
+resultado esperado: conseguir o valor que a pessoa ganha por hora trabalhada
+sequencia de passos pra chegar no resultado: pegar o salario mensal da pessoa e dividir pela quantidade de horas trabalhadas no mês e assim conseguir o resultado
+
+Prática3: Gerar um valor aleatorio de 1 a 10 e permitir o usuario chutar um numero até que o valot aleatorio gerado no começo seja chutado corretamente, o programa deve informar se o chute foi maior, menor, ou igual ao numero aleatorio gerado no inicio do programa
+
+dados de entrada: numero aleatorio de 1 a 10, valor chutado pelo usuario
+o que fazer com estes dados: utilizar o numero aleatorio gerado, e comparar com o numero digitado pelo usuario
+restrições: o usuário nao pode digitar o valor 0, nao pode colocar nenhuma letra, apenas numeros
+resultado esperado: o programa gera um valor aleatorio de 1 a 10 e guarda, recebe o valor do usuario e guarda, compara o valor do usuario com o valor inicial gerado aleatoriamente, e mostra se o numero digitado pelo usuario foi maior, menor, ou igual ao numero aleatorio
+sequencia de passos pra chegar no resultado: gerar um valor aleatorio de 1 a 10; guardar; pedir um numero ao usuario; guardar; comparar o numero do usuario, com o numero gerado aleatoriamente; verificar se é maior, menor ou igual; exibir na tela
+
+
+4 CONCEITO OBRIGATORIOA PARA SER CAPAZ DE RESOLVER PROBLEMAS
+
+1. VARIÁVEIS
+2. CONDICIONAIS
+3. LAÇOS DE REPETIÇÃO
+4. COLEÇÕES
+
+1 - VARIÁVEIS
+°Quando voce ouve o nome de alguem, o que voce faz com esse nome?
+Voce tenta guardar ele certo?
+Onde voce guarda ele? Voce guarda ele na sua memória.
+
+°Quando alguem te passa uma data de uma consulta, o que voce faz com essa data?
+Voce anota ela em algum lugar para se lembrar daquilo ou simplesmente tenta guardar na sua mente certo?
+
+°Quando alguem te diz para ir ao mercado comprar UMA barra de chocolate, voce guarda ou anota essa info em algum lugar também certo?
+ 
+
+
+PRÁTICA DO CONCEITO DE VARIÁVEL
+
+"Escreva um programa que retorna o valor hora de um funcionário com base no seu salário mensal e horas trabalhadas no mês"
+
+As variáveis deste exemplo seriam: salario mensal; horas trabalhadas ao mês; valor hora
+
+2 - CONDICIONAIS
+°Quando alguém te oferece um panfleto na rua você pega ele sem pensar?
+
+°Quando descobre que algo que voce quer muito comprar esta na promoçao, voce compra ela direto sem pensar antes?
+
+PRÁTICA DO CONCEITO DE CONDICIONAIS
+
+"Escreva um programa que, ao iniciar gera um valor aleatorio de 1 a 10 e permite que o usuario chute um numero até que o valor aleatorio gerado no inicio do programa seja chutado corretamente, o programa deve informar se o chute foi acima, abaixo, ou igual ao valor aleatorio gerado no inicio do programa"
+
+as condições deste exemplo são: quando preciso comparar se o valor chutado é igual, maior, ou menor que o valor gerado aleatóriamente
+
+3 - LAÇOS DE REPETIÇÃO
+°Cortar um pão uma certa quantidades de vezes
+°Varrer o chão uma certa quantidade de vezes
+°Dar vários passos para chegar até um lugar
+
+PRÁTICA DO CONCEITO DE LAÇOS DE REPETIÇÃO
+
+"Crie um programa que recebe um número e o incrementa por 1 por 10 vezes"
+
+a solução seria gerar um valor base: valor = 10
+e começar as repetições: 1ª repetição | valor = valor + 1 | 11
+2ª repetição | valor = valor + 1 | 12
+3ª repetição | valor = valor + 1 | 13
+até chegar na 10ª e última repetição, sempre atualizando o valor base, que antes era 10, foi incrementado +1, e se tornou 11, e por ai variáveis
+
+PONTOS EM COMUM EM LAÇOS DE REPETIÇÃO
+
+Normalmente possuem um ponto inicial e um ponto final, ou em alguns casos uma condição que irá significar o final daquele laço de repetição ex:
+
+°Deixe a torneira aberta até que o copo esteja cheio de água
+°Nade até chegar do outro lado da piscina
+°Some todos os valores até enquanto o valor for menor que 100
+°Dê machadadas na árvore até que ela caia
+
+PONTOS CHAVE
+
+-Uteis para conseguir automatizar processos
+-É possível definir por quantas vezes algo deve ser executado
+-Possuem ponto de início e fim
+-Podem estar atrelados a uma condição
+
+4 - COLEÇÕES
+°Em muitos casos, voce tera a necessidade de trabalhar com coleções de valores que estao armazenados em um local só, ex:
+
+°convidados = ['Jeff', 'Amanda', 'Carol', 'Robert']
+°Numeros premiados = [12, 67, 34, 100, 55]
+
+EXEMPLO DE USO DE COLEÇÕES - Chute o número
+
+Dado uma coleção de dados "idades" [15, 46, 75, 34, 23] imprima na tela a soma destes valores
+
+°Definir o total como 0
+°Passar por 1º valor e somar ele ao total
+°Passar por 2º valor e somar ele ao total
+°Passar por 3º valor e somar ele ao total
+°Passar por 4º valor e somar ele ao total
+°Passar por 5º valor e somar ele ao total
+°Exibir o valor total
+
+CRIANDO SOLUÇÕES EM PSEUDOCÓDIGO DO BÁSICO AO AVANÇADO
+
+1- Como podemos demonstrar a solução para um problema?
+°Pseudocódigo
+°Fluxograma
+
+DEFINIÇÃO DE PSEUDOCÓDIGO
+°O pseudocódigo é uma descrição dos passos necessários para resolver um determinado problema em uma linguagem natural, que não está ligada diretamente a uma linguagem de programação
+
+SINTAXE DO PSEUDOCÓDIGO
+°input: palavra usada para receber dados do usuario
+°print: exibir o resultado no console
+°if condição: condicional que controla se algo deve ou não ser feito
+°else: cláusula a ser executada caso nenhuma condicional IF seja executada
+°loop de X a Y: laço de repetição que irá ITERAR de X a Y
+°loop de X em Y: laço de repetição que irá ITERAR X EM UMA COLEÇÃO Y
+°while X: laço de repetição que acontecerá ENQUANTO uma condição for verdadeira
+
+ITERAR: Ato de passar por cada item de uma coleção
+
+Problema1 em pseudocódigo:
+
+Calcular o valor por hora recebido de um funcionário com base em seu salario mensal e horas trabalhadas
+
+dados de entrada: salário mensal, horas trabalhadas mensalmente
+o que fazer com estes dados: calculcar o valor por hora do funcionario
+restrições: somente será exibido o valor hora do funcionario
+resultado esperado: conseguir o valor que a pessoa ganha por hora trabalhada
+sequencia de passos pra chegar no resultado: pegar o salario mensal da pessoa e dividir pela quantidade de horas trabalhadas no mês e assim conseguir o resultado
+
+pseudocódigo do exemplo acima:
+
+°input salario_mensal 
+//armazena o valor do salario do funcionario numa variável chamada "salario_mensal"
+
+°input horas_trabalhadas_mes
+//armazena o valor das horas que o funcionario trabalhou no mes numa variável chamada "horas_trabalhadas_mes"
+
+°valor_hora = salario_mensal / horas_trabalhadas_mes
+//Atribui o valor da variável "valor_hora" através da divisão dos valores das variáveis "salario_mensal" e "horas_trabalhadas_mes"
+
+°print valor_hora
+//Imprime na tela o valor da variável "valor_hora"
+
+Problema2 em pseudocódigo
+
+Crie um programa que pede ao usuário seu nome e depois o dá as boas-vindas dizendo "X seja bem-vindo", onde X é o nome do usuário
+
+dados de entrada: nome do usuário
+o que fazer com estes dados: mostrar o nome digitado pelo usuario seguido da frase "seja bem-vindo"
+restrições: só executaria quando o usuário colocasse algum nome, não exibiria mensagem de bem vindo sem um nome
+resultado esperado: após o usuário digitar o seu nome, o programa exibirá na tela "X seja bem-vindo" sendo X o nome digitado pelo usuario
+sequencia de passos para chegar no resultado: exibir na tela o pedido do nome do usuario, receber este nome e armazenar numa variavel, inlcuir essa variável com o nome na frase "seja bem-vindo" e exibir a frase junto com o nome digitado na tela
+
+
+pseudocódigo do exemplo acima:
+
+°print Digite seu nome:
+//Exibe na tela o pedido para que o usuário digite seu nome
+
+°input nome_usuario
+//armazena o nome digitado pelo usuário na variável "nome_usuario"
+
+°if nome_usuario = NULL print Digite um valor válido
+//Verifica se a variável "nome_usuario" está vazia, e o manda para digitar um nome novamente, armazenando um novo valor na variável "nome_usuario"
+
+°else print nome_usuario + seja bem-vindo
+//Se existe um valor válido para a variável "nome_usuario", exibe na tela o valor dessa variável juntamente da frase seja bem-vindo
+
+
+Problema3 em pseudocódigo
+
+Crie um programa que recebe dois valores e exie qual é o maior entre eles
+
+dados de entrada: valor1, valor2
+o que fazer com estes dados: comparar qual é maior
+restrições: necessário inserir 2 valores
+resultado esperado: que após receber os 2 valores, fazer uma comparação e encontrar o maior, exibindo ele na tela
+sequencia de passos em pseudocódigo:
+
+°print digite o primeiro valor:
+//exibe na tela o pedido para receber o primeiro valor
+
+°input valor1
+/recebe e armazena o primeiro valor digitado
+
+°print digite o segundo valor:
+//exibe na tela o pedido para receber o segundo valor
+
+°input valor2
+//recebe e armazena o segundo valor digitado
+
+°if valor1 > valor2 print o primeiro valor é o maior entre os dois
+//verifica se o valor da variável "valor1" é maior que o valor da variavel "valor2" se esta condição for cumprida, exibe na tela que o primeiro valor digitado é o maior
+
+°else print o segundo valor é maior ou igual ao primeiro valor
+
+Problema4 em pseudocódigo
+
+Crie um programa que recebe um número e imprime seu fatorial
+
+dados de entrada: numero digitado pelo usuario
+o que fazer com os dados: fatorar o numero recebido e exibir na tela o resultado do fatorial
+restrições: deve receber um numero inteiro E positivo
+resultado esperado: receber o numero, fazer a fatoração, exibir o resultado na tela
+sequencia de passos em pseudocódigo:
+
+°print digite um número
+//pede ao usuario que digite um numero
+
+°input numero_usuario
+//recebe e armazena o numero que o usuario digitou
+
+°if numero_usuario < 0 print Digite apenas números positivos
+//verifica se o valor da variável "numero_usuario" é positiva, se não for, pede que digite novamente
+
+°fatorial = 1
+//define que a variavel "fatorial" tenha valor igual a 1
+
+°loop de 1 a numero_usuario 
+  fatorial = fatorial * numero_usuario
+//calcula o fatorial baseado no valor da variavel "numero_usuario" ou seja, se temos 5 como "numero_usuario" e "fatorial" igual a 1
+iremos seguir a seguinte logica, valor da variavel "fatorial" VEZES a primeira vez que entramos no loop, ou seja "1"
+iremos pegar o valor desta conta, e armazenar em "fatorial", logo em seguida iremos fazer o seguinte
+valor de "fatorial" VEZES a segunda vez que entramos no loop, ou seja 1 * 2, armazenamos o resultado em "fatorial",
+nos entregando que iremos começar assim: valor atual de "fatorial" que é 2 VEZES a terceira vez que entramos no loop
+ou seja 2 * 3, e assim vai, até chegarmos ao valor de "numero_usuario" que é 5, representando que o loop irá se repetir
+por no máximo 5 vezes.
+
+°print fatorial
+//imprime na tela o valor de "fatorial" após ter saido do loop, e efetuado o calculo com base no número que o usuario digitou no inicio
+
+
+Problema5 em pseudocódigo
+
+Dados uma coleção de dados "idades" [15, 46, 75, 34, 23] imprima na tela a soma destes valores
+
+dados de entrada: coleção "idades"
+o que fazer com os dados: verificar a quantidade de idades que existem dentro dessa coleção, pegar os valores das idades, somar todos e imprimir
+restrições: não posso realizar a soma de valores que não estejam dentro da coleção "idades"
+resultado esperado: exibir na tela a soma de todas as idades dentro da coleção "idades"
+sequencia de passos em pseudocódigo:
+
+°idades = [15, 46, 75, 34, 23]
+//Adiciona todos estes valores na coleção chamada "idades"
+
+°total = 0
+//Cria uma varíavel com nome "total" define seu valor para 0
+
+°loop idade em idades
+  total = total + idade
+//Cria um loop que passa por todos os itens(idade) dentro da coleção "idades"
+//A forma como foi calculado é a seguinte: o valor de total começa em 5
+a quantidade de vezes que o loop ira acontecer depende da quantidade de itens dentro da coleção "idades"
+ou seja, com 5 idades diferentes dentro da coleção, temos 5 itens
+partindo desta lógica, começaremos com "total" = 0, entramos no loop
+e fazemos "total" = "total" + 15, que seria o primeiro item ta lista
+nos resultando em "total" = 15, partindo deste princípio, iremos para o próximo item da lista de idades
+que é o valor 46, e fazemos, "total" = "total" + 46 que ficaria "total" = 15 + 46 = 61, e por ai vai
+
+°print total
+//exibe o valor de todos os itens(idade) da coleção "idades" somados
+
+Problema6 em pseudocódigo
+
+Escreva um programa que, ao iniciar gera um valor aleatório de 1 a 10 e permite que o usuário chute um número até que o valor aleatório gerado no início do programa seja chutado corretamente.
+O programa deve informar caso o chute tenha sido acima, abaixo ou igual ao valor gerado no inicio do programa
+
+dados de entrada: numero aleatorio gerado de 1 a 10, valor de chute do usuario
+o que devo fazer com estes dados: armazenar o valor aleatorio gerado de 1 a 10, e comparar com o valor de chute do usuario para saber se é maior, menor ou igual ao número aleatorio, exibindo na tela se a pessoa digitou algo maior, menor ou igual ao numero aleatorio
+restrições: só podem ser gerados número de 1 a 10 aleatoriamente
+qual o resultado esperado: após gerar o número aleatoriamente, e obter o valor chutado pelo usuario, comparar os dois, e exibir na tela se o chute do usuario foi maior, menor ou se ele acertou o chute
+sequencia de passos em pseudocódigo:
+
+°input valor_aleatorio entre 1 a 10
+//gera um valor aleatorio de 1 a 10 e armazena na variavel "valor_aleatorio"
+
+°acertou = false
+//cria uma variável de controle para saber se o usuario acertou ou nao o chute, de primeira instancia, o seu valor é setado para false
+
+°while acertou = false
+  input valor_chute
+  if valor_chute > valor_aleatorio
+    print "Seu chute foi maior que o número gerado"
+  if valor_chute < valor_aleatorio
+    print "Seu chute foi menor que o número gerado"
+  if valor_chute = valor_aleatorio
+    acertou = true;
+    print "Você acertou o valor aleatório"
+  else
+    print "Você chutou um valor inválido"     
+//aqui entramos num laço de repetição baseado numa condição, onde o laço se repetirá enquanto o valor de "acertou" for falso
+dentro deste laço, irá ocorrer 4 verificações, onde uma compara se o "valor_chute" é maior que o "valor_aleatorio" e mostra uma mensagem de acordo
+a outra compara se o "valor_chute" é menor que o "valor_aleatorio" e apresenta uma mensagem na tela de acordo com a situação
+e a terceira verifica se o "valor_chute" é igual ao "valor_aleatorio", se sim, ele seta o valor de "acertou" para true, assim encerrando o ciclo do while, pois a condição para o while funcionar não está mais sendo cumprida
+e depois printa a mensagem de sucessona tela
+a ultima verificação é no caso de nenhuma das 3 anteriores serem cumpridas, ela apresenta na tela uma mensagem de erro, onde o usuario digitou um valor invalido
+
